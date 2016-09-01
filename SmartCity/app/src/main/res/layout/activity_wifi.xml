@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3faf86">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#af2f2f"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Control Lock"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        android:clickable="false" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#af2f2f" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="open"
+            android:id="@+id/button1"
+            android:layout_gravity="center_horizontal"
+            android:background="#40c5bc"
+            android:textColor="#ffffff"
+            android:layout_weight="0.92" />
+
+        <Button
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:text="close"
+            android:id="@+id/button2"
+            android:background="#b92800"
+            android:textColor="#ffffff"
+            android:layout_weight="0.12" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="IP Address:"
+        android:textColor="#ffffff"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g. 192.168.0.10"
+        android:textColor="#ffffff"
+        android:id="@+id/editTextIPAddress" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Port Number:"
+        android:textColor="#ffffff"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="e.g. 80"
+        android:textColor="#ffffff"
+        android:id="@+id/editTextPortNumber" />
+
+</LinearLayout>

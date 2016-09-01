@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:text="01"
+            android:id="@+id/lot1"
+            android:layout_weight="0.33"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:text="02"
+            android:id="@+id/lot2"
+            android:layout_weight="0.33"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:text="03"
+            android:id="@+id/lot3"
+            android:layout_weight="0.33"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:text="04"
+            android:id="@+id/lot4"
+            android:textColor="#ffffff"
+            android:layout_weight="0.33"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:text="05"
+            android:id="@+id/lot5"
+            android:layout_weight="0.33"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:text="06"
+            android:id="@+id/lot6"
+            android:layout_weight="0.33"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:text="07"
+            android:id="@+id/lot7"
+            android:layout_weight="0.33"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:text="08"
+            android:id="@+id/lot8"
+            android:layout_weight="0.33"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:text="09"
+            android:id="@+id/lot9"
+            android:layout_weight="0.33"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_width="95dp"
+            android:layout_height="20px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="You have chosen: "
+            android:id="@+id/LotNum"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="00"
+            android:id="@+id/lotid"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="147dp">
+
+        <Space
+            android:layout_width="80dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/cancel_action"
+            android:layout_gravity="center_vertical"
+            android:background="#d80000"
+            android:textColor="#ffffff"/>
+
+        <Space
+            android:layout_width="80dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:id="@+id/commit_action"
+            android:background="#00d832"
+            android:layout_gravity="center_vertical"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+</LinearLayout>
